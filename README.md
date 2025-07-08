@@ -30,5 +30,9 @@ DMSA_Net/
 - Streamlit (for deployment)
 
 ### Setup
-If working in a local environment:
-**1-**  Clone the repository:
+If working in a local environment:  
+**1-**  Clone the repository:  
+```bash
+  git clone https://github.com/ghassenbenali96/DMSA-Net.git
+  cd DMSA-Net
+```
