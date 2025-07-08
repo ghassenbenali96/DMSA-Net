@@ -1,8 +1,8 @@
 # 🫘🩺 DMSA-Net
-DNN-based diagnosis for 99m-Tc DMSA renal scintigraphy
+A DNN-based diagnosis tool for 99m-Tc DMSA renal scintigraphy
 
 ## 🔍 Overview
-This Python-based project performs classification of 99m-Tc DMSA renal scintigraphy images using multiple image processing techniques and a custom Convolutional Neural Network (CNN). The system processes renal scintigraphy test images through preprocessing pipelines, trains a deep learning model, and provides a user-friendly interface for deployment.
+This Python-based project performs binary classification of 99m-Tc DMSA (Dimercaptosuccinic Acid) renal scintigraphy images using multiple image processing techniques and a custom Convolutional Neural Network (CNN). The system processes renal scintigraphy test images through preprocessing pipelines, trains a deep learning model, and provides a user-friendly interface for deployment.
 
 ## 🏗️ Key Features
 
@@ -38,6 +38,12 @@ This Python-based project performs classification of 99m-Tc DMSA renal scintigra
   - Virtual environment (venv) configuration
   - Local GPU/CPU compatibility
   - Easy transition to cloud (Colab) when needed
+
+## Dataset
+The model is trained on 568 actual 99m-Tc DMSA renal scintigraphy images from Salah Azaiez Institute (Tunisia), the largest dataset collected for this task so far. Due to patient privacy concerns, only a small number of samples is included in the dataset. To use your own dataset:  
+- Place images in data/raw/ directory  
+- Organize into appropriate class folders  
+- Update paths in the Colab notebooks
 
 ## Project Structure
 DMSA_Net/  
