@@ -1,10 +1,10 @@
-#  DMSA-Net
+# 🫘🩺 DMSA-Net
 DNN-based diagnosis for 99m-Tc DMSA renal scintigraphy
 
-## Overview
+## 🔍 Overview
 This Python-based project performs classification of 99m-Tc DMSA renal scintigraphy images using multiple image processing techniques and a custom Convolutional Neural Network (CNN). The system processes renal scintigraphy test images through preprocessing pipelines, trains a deep learning model, and provides a user-friendly interface for deployment.
 
-## Key Features
+## 🏗️ Key Features
 
 - **Advanced Image Processing Pipeline**
   - 🔍 **Automatic Kidney Cropping**: ROI extraction through a fixed window (224x224)
@@ -24,9 +24,15 @@ This Python-based project performs classification of 99m-Tc DMSA renal scintigra
       - Uses fill_mode='nearest' to handle edge artifacts during transformations  
 
 - **Deep Learning Architecture**
-  - Custom 8-layer CNN with residual connections
-  - Adaptive learning rate scheduling
-  - Class-weighted loss function for imbalanced data
+  -Input: Grayscale scintigraphy images (256×256×1)
+  -Feature Extraction:
+    - 5 convolutional blocks with decreasing spatial dimensions
+    - Progressive filter increase (32 → 128)
+    - All layers use same padding and ReLU activation
+  - Classification Head:
+    - 3 fully-connected layers with dimensionality reduction
+    - 50% dropout for regularization
+    - Sigmoid output for binary classification
 
 - **Local Development Focus**
   - Virtual environment (venv) configuration
@@ -35,7 +41,7 @@ This Python-based project performs classification of 99m-Tc DMSA renal scintigra
 
 ## Project Structure
 DMSA_Net/  
-├── colab/            *# Google Colab notebooks for preprocessing and training*  
+├── notebooks/            *# Google Colab notebooks for preprocessing and training*  
 │   ├── 1_PreProcessing.ipynb     *# Image preprocessing pipeline*  
 │   └── 2_Modeling.ipynb    *# CNN training and evaluation*  
 ├── streamlit_app/              *# Deployment application*  
@@ -73,3 +79,20 @@ source dmsa/bin/activate  # Linux/Mac
 pip install -r requirements.txt
 ```
 
+## 💻 Usage
+For direct deployment using Streamlit:  
+- Run the Streamlit app:
+```bash
+cd streamlit_app
+streamlit run app.py -- \
+    --model_path ../models/dmsa_model_91_96.h5 \
+    --preprocess_mode full
+```
+
+For model modification and experimentation:
+- Open notebooks directory:
+```bash
+cd notebooks
+```
+- Open *1_PreProcessing.ipynb* and run all cells
+- Open *2_Modeling.ipynb* and ru all cells
