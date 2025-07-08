@@ -31,8 +31,14 @@ DMSA_Net/
 
 ### Setup
 If working in a local environment:  
-**1-**  Clone the repository:  
+**1-**  Clone the repository: 
+
 ```bash
   git clone https://github.com/ghassenbenali96/DMSA-Net.git
   cd DMSA-Net
+```
+**2-** Install required packages:  
+
+```bash
+pip install -r requirements.txt
 ```
