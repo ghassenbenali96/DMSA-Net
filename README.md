@@ -39,23 +39,23 @@ This Python-based project performs binary classification of 99m-Tc DMSA (Dimerca
   - Local GPU/CPU compatibility
   - Easy transition to cloud (Colab) when needed
 
-## Dataset
+## 🗃️ Dataset
 The model is trained on 568 actual 99m-Tc DMSA renal scintigraphy images from Salah Azaiez Institute (Tunisia), the largest dataset collected for this task so far. Due to patient privacy concerns, only a small number of samples is included in the dataset. To use your own dataset:  
 - Place images in data/raw/ directory  
 - Organize into appropriate class folders  
 - Update paths in the Colab notebooks
 
-## Results
+## 📊 Results
 
 | Metric             | Value                 |
 | ----------------- | ----------------------|
-| Accuracy |             |
-| Precision |             |
-| Recall |             |
-| F1-score |             |
+| Accuracy |      91.96%       |
+| Precision |      91%       |
+| Recall |      93%       |
+| F1-score |       92%      |
 
 
-## Project Structure
+## 📂 Project Structure
 DMSA_Net/  
 ├── notebooks/            *# Google Colab notebooks for preprocessing and training*  
 │   ├── 1_PreProcessing.ipynb     *# Image preprocessing pipeline*  
@@ -112,3 +112,17 @@ cd notebooks
 ```
 - Open *1_PreProcessing.ipynb* and run all cells
 - Open *2_Modeling.ipynb* and ru all cells
+
+
+## 📜 License
+This project is licensed under the MIT License - see the LICENSE file for details.  
+Permissions: 
+  ✅ Commercial use  
+  ✅ Modification  
+  ✅ Distribution  
+  ✅ Private use  
+Limitations:  
+  ❌ Liability  
+  ❌ Warranty  
+Conditions:  
+  ©️ Must include original copyright notice
