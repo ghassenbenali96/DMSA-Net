@@ -120,9 +120,11 @@ Permissions:
   - ✅ Commercial use  
   - ✅ Modification  
   - ✅ Distribution  
-  - ✅ Private use  
+  - ✅ Private use
+
 Limitations:  
   - ❌ Liability  
-  - ❌ Warranty  
+  - ❌ Warranty
+
 Conditions:  
   - ©️ Must include original copyright notice
