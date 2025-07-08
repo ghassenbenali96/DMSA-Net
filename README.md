@@ -45,6 +45,16 @@ The model is trained on 568 actual 99m-Tc DMSA renal scintigraphy images from Sa
 - Organize into appropriate class folders  
 - Update paths in the Colab notebooks
 
+## Results
+
+| Metric             | Value                 |
+| ----------------- | ----------------------|
+| Accuracy |             |
+| Precision |             |
+| Recall |             |
+| F1-score |             |
+
+
 ## Project Structure
 DMSA_Net/  
 ├── notebooks/            *# Google Colab notebooks for preprocessing and training*  
