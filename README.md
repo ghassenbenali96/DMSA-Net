@@ -23,3 +23,12 @@ DMSA_Net/
 ├── requirements.txt            *# Python dependencies*  
 └── README.md                   *# This file*
 
+## Installation
+### Prerequisites
+- Python 3.8 or higher
+- Google Colab for training (or local environment if CPU is well performing)
+- Streamlit (for deployment)
+
+### Setup
+If working in a local environment:
+**1-**  Clone the repository:
