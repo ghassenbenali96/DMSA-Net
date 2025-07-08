@@ -117,12 +117,12 @@ cd notebooks
 ## 📜 License
 This project is licensed under the MIT License - see the LICENSE file for details.  
 Permissions: 
-  ✅ Commercial use  
-  ✅ Modification  
-  ✅ Distribution  
-  ✅ Private use  
+  - ✅ Commercial use  
+  - ✅ Modification  
+  - ✅ Distribution  
+  - ✅ Private use  
 Limitations:  
-  ❌ Liability  
-  ❌ Warranty  
+  - ❌ Liability  
+  - ❌ Warranty  
 Conditions:  
-  ©️ Must include original copyright notice
+  - ©️ Must include original copyright notice
