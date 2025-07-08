@@ -105,7 +105,7 @@ streamlit run app.py -- \
     --preprocess_mode full
 ```
 
-For model modification and experimentation:
+For modification and experimentation using notebooks:
 - Open notebooks directory:
 ```bash
 cd notebooks
