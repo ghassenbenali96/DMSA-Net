@@ -10,16 +10,16 @@ This Python-based project performs classification of 99m-Tc DMSA renal scintigra
 - **Web Deployment**: Streamlit-based interactive web application for model inference
 
 ## Project Structure
-DMSA_Net/
-├── colabs/            # Google Colab notebooks for preprocessing and training
-│   ├── 1_PreProcessing.ipynb     # Image preprocessing pipeline
-│   └── 2_Modeling.ipynb    # CNN training and evaluation
-├── streamlit_app/              # Deployment application
-│   ├── app.py                  # Main Streamlit application
-├── models/                     # Trained model weights
-├── data/                       # Dataset (not included in repo)
-│   ├── raw/                   # Original images
-│   └── processed/             # Preprocessed images
-├── requirements.txt            # Python dependencies
+DMSA_Net/  
+├── colabs/            # Google Colab notebooks for preprocessing and training  
+│   ├── 1_PreProcessing.ipynb     # Image preprocessing pipeline  
+│   └── 2_Modeling.ipynb    # CNN training and evaluation  
+├── streamlit_app/              # Deployment application  
+│   ├── app.py                  # Main Streamlit application  
+├── models/                     # Trained model weights  
+├── data/                       # Dataset (not included in repo)  
+│   ├── raw/                   # Original images  
+│   └── processed/             # Preprocessed images  
+├── requirements.txt            # Python dependencies  
 └── README.md                   # This file
 
