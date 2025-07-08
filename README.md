@@ -1,4 +1,4 @@
-# DMSA-Net
+#  DMSA-Net
 DNN-based diagnosis for 99m-Tc DMSA renal scintigraphy
 
 ## Overview
@@ -9,7 +9,7 @@ This Python-based project performs classification of 99m-Tc DMSA renal scintigra
 - **Advanced Image Processing Pipeline**
   - 🔍 **Automatic Kidney Cropping**: ROI extraction through a fixed window (224x224)
   - 🖼️ **Crimmins Speckle Reduction**: Noise suppression while preserving edges
-  - 🔍 **Kidney isolation and inpainting**: Adaptive removal of extra masses in the image (bladder, ureter) and inpainting for newly empty regions
+  - 🔍 **Kidney isolation and inpainting**: Adaptive removal of extra masses in the image (bladder, ureter) and inpainting of newly evacuated regions
   - 🔄 **Comprehensive Augmentation**:
     - Normalization: Rescales pixel values to [0, 1]
     - Geometric Transformations:  
@@ -47,7 +47,7 @@ DMSA_Net/
 ├── requirements.txt            *# Python dependencies*  
 └── README.md                   *# This file*
 
-## Installation
+## 🛠️ Installation
 ### Prerequisites
 - Python 3.8 or higher
 - Virtual environment support
