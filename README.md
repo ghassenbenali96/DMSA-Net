@@ -24,7 +24,7 @@ This Python-based project performs binary classification of 99m-Tc DMSA (Dimerca
       - Uses fill_mode='nearest' to handle edge artifacts during transformations  
 
 - **Deep Learning Architecture**
-  -Input: Grayscale scintigraphy images (256×256×1)
+  -Input: Grayscale scintigraphy images (224×224×1)
   -Feature Extraction:
     - 5 convolutional blocks with decreasing spatial dimensions
     - Progressive filter increase (32 → 128)
