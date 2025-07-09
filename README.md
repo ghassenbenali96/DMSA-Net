@@ -43,7 +43,7 @@ This Python-based project performs binary classification of 99m-Tc DMSA (Dimerca
 The model is trained on 568 actual 99m-Tc DMSA renal scintigraphy images from Salah Azaiez Institute (Tunisia), the largest dataset collected for this task so far. Due to patient privacy concerns, only a small number of samples is included in the dataset. To use your own dataset:  
 - Place images in data/raw/ directory  
 - Organize into appropriate class folders  
-- Update paths in the Colab notebooks
+- Update paths in the notebooks
 
 ## 📊 Results
 
