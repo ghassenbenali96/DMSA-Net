@@ -115,7 +115,7 @@ cd notebooks
 
 
 ## 📜 License
-This project is licensed under the MIT License - see the [LICENSE](https://choosealicense.com/licenses/mit/) file for details.  
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/ghassenbenali96/DMSA-Net?tab=MIT-1-ov-file) file for details.  
 Permissions: 
   - ✅ Commercial use  
   - ✅ Modification  
